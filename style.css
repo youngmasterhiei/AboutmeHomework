@@ -1,0 +1,267 @@
+.img-1 {
+    height: 225px;
+    width: 160px;
+    
+}
+/* back ground pattern*/
+body {
+    background-image: url(scribble_light_@2X.png);
+    
+}
+
+.nameHeader {
+    background-color: #4aaaa5;
+    color: #ffffff;
+   
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 475px;
+
+}
+/* nav bar*/
+.horizontalNav {
+    display: inline;
+    
+    
+    
+    
+}
+/* the little line between nav links and right side spacing*/
+.classyLine {
+    border-right: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    padding-right: 10px;
+                                    
+}
+/* padding for nav left*/
+.addedPaddingNav {
+    padding-left: 6px;
+}
+/* link color, remove underline bar*/
+a {
+    color: #777777;
+    text-decoration: none;
+
+}
+/* for some reason i couldnt change the font size for links under the element so i had to make a class*/
+.linkSize {
+    font-size: 20px;
+}
+
+
+/* make underline bar when hovering*/
+a:hover {
+    text-decoration: underline;
+}
+
+/* positioning for the nav bar links on the white background box */
+.navPosition {
+    
+    position: fixed;
+    left: 1175px;
+    margin-top: 25px;
+    
+    
+    
+    
+}
+
+
+
+/*  pain the in the ass background white box for header and nav bar*/
+.box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 65px;
+    background: white;
+    width: 100%;
+    border-style: solid;
+    border-color: #cccccc;
+    border-bottom-width: 2px;
+    
+    
+    
+}
+/* generic right float class*/
+.rightFloat {
+    float: right;
+}
+/* generic left float class*/
+.leftFloat {
+    float: left;
+}
+
+
+/* clear float class*/
+.fixFloat {
+    clear: both;
+}
+
+/* makes box around about me section, 960 width, colors background, positions*/
+.box-1 {
+        position: fixed;
+        width: 960px;
+        background: white;
+        top: 80px;
+        left: 475px;
+        
+
+}
+
+
+
+
+
+/* sets footer background, forces bottom of page and fill width, limits height to only 50px*/
+footer {
+    background-color: #666666;
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+   
+   
+}
+/* centers text, colors text, margin pushes it to the bottom of box, not sure if theres a better way*/
+.footText {
+    
+    text-align: center;
+    color: #ffffff;
+    
+    margin-top: 30px;
+}
+/* makes solid teal border, estimated the size, dont know how to use google's ruler on an image*/
+.footBorder {
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-top-width: 6px;
+}
+
+/* styles the second header, hopefully on each page. might need to tweak it here and there*/
+.secondHeader {
+
+    color: #4aaaa5;
+    font-size: 28px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: #dddddd;
+    line-height: 75px;              /*allows me to put a space between bottom border and second header*/
+    
+
+
+}
+/*aligns my image with proper spacing from border and paragraph*/
+.pushImg {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/* styles the paragraph text along with margins from borders*/
+.paraText {
+    line-height: 35px;
+    color: #777777;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+    
+}
+/* applies space to bottom of paragraph from border had to use a second class because I split up the paragraphs*/
+.paraText-2 {
+    margin-bottom: 20px;
+}
+
+/*adds border to main content and adds space from main header and nav bar */
+.paraDivBorder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+/* Form Contact styling name and email lines*/
+.contactLines {
+
+    width: 912px;
+    height: 28px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    
+}
+
+/* form message styling */
+
+textarea {
+    width: 912px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    resize: none;
+    
+}
+
+/*label font for */
+.contactLabel {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+    
+    
+}
+
+/* messing around with placeholder text*/
+.contactLabel-2 {
+ 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #888888;
+  
+    
+}
+
+
+/* styles the button*/
+.butStyle {
+
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+}
+
