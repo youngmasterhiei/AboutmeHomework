@@ -145,6 +145,7 @@ footer {
     border-style: solid;
     border-color: #4aaaa5;
     border-top-width: 6px;
+    
 }
 
 /* styles the second header, hopefully on each page. might need to tweak it here and there*/
@@ -264,4 +265,135 @@ textarea {
     border: none;
     font-size: 18px;
 }
+
+
+.overFlowScroll {
+    
+}
+
+.portImg {
+
+    height: 190px;
+    width: 240px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+}
+
+.portImgSpace {
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.portHeader2 {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    position: relative;
+    width: 230px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+    top: 130px;
+    padding-top: 9px;
+    
+
+
+}
+
+.boxImg1 {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    height: 175px;
+    width: 230px;
+    margin-top: 8px;
+    background-image: url(hangman.jpg)
+}
+
+
+.boxImg2 {
+    position: absolute;
+    top: 120px;
+    left: 285px;
+    height: 175px;
+    width: 230px;
+    margin-top: 8px;
+    background-image: url(rubix.jpg)
+}
+
+.boxImg3 {
+    position: absolute;
+    top: 325px;
+    left: 25px;
+    height: 175px;
+    width: 230px;
+    margin-top: 8px;
+    background-image: url(trivia.jpg)
+}
+
+.boxImg4 {
+    position: absolute;
+    top: 530px;
+    left: 25px;
+    height: 175px;
+    width: 230px;
+    margin-top: 8px;
+    background-image: url(widgets.png)
+    
+
+
+}
+
+.boxImg5 {
+    position: absolute;
+    top: 325px;
+    left: 285px;
+    height: 175px;
+    width: 230px;
+    margin-top: 8px;
+    background-image: url(rpggame.jpeg)
+}
+
+
+
+
+
+
+
+.boxPort1 {
+    position: fixed;
+    width: 960px;
+    height: 745px;
+    background: white;
+    top: 80px;
+    left: 475px;
+    
+    
+
+}
+
+
+.infoBox {
+    position: absolute;
+    top: 530px;
+    left: 285px;
+    width:100%;
+    height:400px;
+}
+
+
+
+a.profLinks {
+    color: #ffffff;
+    
+    
+}
+
+
+
+
 
